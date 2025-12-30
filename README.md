@@ -15,13 +15,33 @@ An AI-powered medical imaging tool that utilizes Google's **Gemini 1.5 Flash** m
 * **Dynamic Model Selector:** Automatically detects available Google AI models for your API key.
 * **Dark Mode UI:** Optimized interface for radiologists working in low-light environments.
 
+## 📦 Libraries Used
+
+This project requires the following Python libraries:
+
+| Library | Purpose |
+| :--- | :--- |
+| `streamlit` | Builds the interactive web interface and handles file uploads. |
+| `google-genai` | The official Google SDK to connect with the Gemini 1.5 Flash model. |
+| `pillow` | Used for opening, manipulating, and processing image files (JPG/PNG). |
+| `fpdf` | Generates the downloadable PDF diagnostic report. |
+
+### 📄 requirements.txt
+You can install all dependencies at once by creating a `requirements.txt` file with this content:
+
+```text
+streamlit
+google-genai
+pillow
+fpdf
+```
 
 
 ## 🛠️ Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/medical-ai-assistant.git](https://github.com/your-username/medical-ai-assistant.git)
+    git clone [https://github.com/vermasomil1616/medical-ai-assistant.git](https://github.com/vermasomil1616/medical-ai-assistant.git)
     cd medical-ai-assistant
     ```
 
