@@ -1,7 +1,7 @@
 from google import genai
 
 # PASTE YOUR KEY HERE
-MY_KEY = "AIzaSyBOZ2jdYdzSEgFSzbEYV3aQiAQAd99a3ts" 
+MY_KEY = "AI*****" 
 
 try:
     client = genai.Client(api_key=MY_KEY)
@@ -17,4 +17,4 @@ try:
 except Exception as e:
     print(f"\n❌ ERROR: {e}")
 
-# AIzaSyBOZ2jdYdzSEgFSzbEYV3aQiAQAd99a3ts
+
